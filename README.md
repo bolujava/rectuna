@@ -12,3 +12,7 @@ Fine-tuned model:
   JSON validity:  20/20 = 100.0%
   Schema match:   20/20 = 100.0%
   Exact match:    20/20 = 100.0%
+
+
+GitHub stores the code, Vercel serves the UI, ngrok tunnels to Kaggle, Kaggle runs the model, HuggingFace stores the model.
+Five platforms, each doing one thing, all free, chained together at runtime.
